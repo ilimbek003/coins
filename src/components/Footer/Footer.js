@@ -9,11 +9,6 @@ const Footer = () => {
     return (
         <div id="footer">
             <div className="container">
-                <a href="#">
-                    <div className="app">
-
-                    </div>
-                </a>
                 <div className="footer">
                     <div className="footer-contact">
                         <h1>Контакты</h1>

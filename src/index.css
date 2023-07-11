@@ -14,16 +14,42 @@
     font-family: Gilroy;
     src: url("./fonts/Gilroy-ExtraBold.otf");
 }
+@font-face {
+    font-family: GilroyOne;
+    src: url("./fonts/Gilroy-Light.otf");
+}
+@font-face {
+    font-family: Raleway;
+    src: url("./fonts/Raleway-Medium.woff2");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("./fonts/Poppins-ExtraLight.ttf");
+}
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
+    font-family: Gilroy,sans-serif;
 }
 
+h2 ,h3,h4,h5,h6{
+    font-family: GilroyOne,sans-serif;
+}
+
+input{
+    font-family: Poppins,sans-serif;
+}
+
+h1{
+    font-family: Gilroy,sans-serif;
+}
+p{
+    font-family: Raleway,sans-serif;
+}
 body{
     background: #000;
     height: 100%;
     width: 100%;
-    font-family: Gilroy,sans-serif;
 }

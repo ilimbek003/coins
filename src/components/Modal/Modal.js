@@ -53,7 +53,7 @@ const Modal = ({active, setActive}) => {
                                         type="tel"
                                         id="tel"
                                         autoComplete="off"
-                                        onChange={(e) => setQuestions({...questions,tel: e.target.value})}
+                                        onChange={(e) => setQuestions({...questions,number: e.target.value})}
                                         required/>
                                     <label htmlFor="tel">Ваш контактный телефон</label>
                                 </div>

@@ -46,7 +46,8 @@ const Request = () => {
                                 placeholder="tel"
                             />
                         </div>
-                        <textarea
+                        <input
+                            className="textarea"
                             id="form_field_id"
                             type="text"
                             onChange={(e) => setQuestion({...question,text: e.target.value})}
