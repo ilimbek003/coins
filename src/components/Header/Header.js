@@ -30,29 +30,30 @@ const Header = () => {
                     <div className="logo">
                         <img src={img} alt=""/>
                     </div>
-                    <ul>
-                        <li><Link className="test6" to="about" spy={true} smooth={true} duration={500}>Курсы</Link></li>
-                        <li><Link className="test6" to="our" spy={true} smooth={true} duration={500}>Преимущества</Link></li>
-                        <li><Link className="test6" to="block" spy={true} smooth={true} duration={500}>Условия</Link></li>
-                        <li><Link className="test6" to="about_us" spy={true} smooth={true} duration={500}>FAQ</Link></li>
-                        <li><Link className="test6" to="footer" spy={true} smooth={true} duration={500} >Контакты</Link></li>
-                    </ul>
-                    <button onClick={() => setModalActive(true)} className="btn">Оставить заявку</button>
+                    <div className="numbar">
+                        <ul>
+                            <li><Link className="test6" to="about" spy={true} smooth={true} duration={500}>Курсы</Link></li>
+                            <li><Link className="test6" to="our" spy={true} smooth={true} duration={500}>Преимущества</Link></li>
+                            <li><Link className="test6" to="block" spy={true} smooth={true} duration={500}>Условия</Link></li>
+                            <li><Link className="test6" to="about_us" spy={true} smooth={true} duration={500}>FAQ</Link></li>
+                            <li><Link className="test6" to="footer" spy={true} smooth={true} duration={500} >Контакты</Link></li>
+                        </ul>
+                        <button onClick={() => setModalActive(true)} className="btn">Оставить заявку</button>
+                    </div>
+                    <div>
+                        <nav>
+                            <div className="burger-menu" onClick={updateMenu}>
+                                <div className={burger_class}></div>
+                                <div className={burger_class}></div>
+                                <div className={burger_class}></div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div className={menu_class}>
+
+                    </div>
                 </div>
-                <div>
-                    <nav>
-                        <div className="burger-menu" onClick={updateMenu}>
-                            <div className={burger_class}></div>
-                            <div className={burger_class}></div>
-                            <div className={burger_class}></div>
-                        </div>
-                    </nav>
-                </div>
-                <div className={menu_class}>
-                    {/* {  <NavLink to="/registration">
-                      <button className="btn-one">Регисрация</button>
-                    </NavLink> } */}
-                </div>
+
                 <Modal active={modalActive} setActive={setModalActive}/>
             </div>
         </div>
