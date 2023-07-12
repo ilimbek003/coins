@@ -680,7 +680,7 @@
 .good p {
     color: #FFFFFF;
     font-size: 14px;
-    width: 350px;
+    width: 320px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -1225,6 +1225,7 @@
         justify-content: space-between;
         margin-top: 130px;
         flex-wrap: wrap;
+        margin-left: -4px;
     }
 
     .cash-one {
@@ -1263,6 +1264,7 @@
         text-transform: uppercase;
         text-align: left;
         width: 329px;
+        margin-left: 30px;
     }
 
     .our-h1 {
