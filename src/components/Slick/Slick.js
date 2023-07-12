@@ -17,8 +17,16 @@ const Slick = () => {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
-        cssEase: "linear"
-
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 414,
+                settings: {
+                    slidesToShow: 1.3,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
     return (
         <div className="slick">

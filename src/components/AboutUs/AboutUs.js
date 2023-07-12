@@ -8,8 +8,7 @@ import benzinga from "../../img/press-benzinga.svg.svg";
 import Slider from "react-slick";
 
 const AboutUs = () => {
-    const settings = {
-        className: "center",
+    const settings = { className: "center",
         centerMode: true,
         infinite: true,
         centerPadding: "60px",
@@ -17,8 +16,16 @@ const AboutUs = () => {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
-        cssEase: "linear"
-
+        cssEase: "linear",
+        responsive: [
+           {
+                breakpoint: 414,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
     return (
         <div id="about_us">

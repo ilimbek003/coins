@@ -24,16 +24,20 @@ const BLock = () => {
                         <div className="drop"/>
                         <h6>Лимиты</h6>
                     </div>
-                    <div className="benefits">
-                        <img src={info} alt=""/>
-                        <div className="drop"/>
-                        <h6>Простота</h6>
+                    <div className="benefits1">
+                        <div className="benefits">
+                            <img src={info} alt=""/>
+                            <div className="drop"/>
+                            <h6>Простота</h6>
+                        </div>
                     </div>
-                    <div className="benefits">
-                        <img src={info} alt=""/>
-                        <div className="drop"/>
-                        <h6>Сервис</h6>
-                    </div>
+                   <div className="benefits1">
+                       <div className="benefits">
+                           <img src={info} alt=""/>
+                           <div className="drop"/>
+                           <h6>Сервис</h6>
+                       </div>
+                   </div>
                 </div>
                 <div className="block_safe">
                     <div>

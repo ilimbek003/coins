@@ -11,7 +11,7 @@ const Our = () => {
             <div className="container">
                 <h1 className="our-h1">Наши преимущества</h1>
                 <div className="our">
-                    <div>
+                    <div className="class">
                         <div className="our_block"/>
                         <div className="our_block-all">
                             <img src={our} alt=""/>
@@ -21,7 +21,7 @@ const Our = () => {
                                 conubia nostra, per inceptos himenaeos.</p>
                         </div>
                     </div>
-                    <div>
+                    <div className="class1">
                         <div className="our_block"/>
                         <div className="our_block-all">
                             <img className="ourOne" src={ourOne} alt=""/>
@@ -31,7 +31,7 @@ const Our = () => {
                                 conubia nostra, per inceptos himenaeos.</p>
                         </div>
                     </div>
-                    <div>
+                    <div className="class2">
                         <div className="our_block"/>
                         <div className="our_block-all">
                             <img src={ourOneT} alt=""/>
@@ -43,7 +43,7 @@ const Our = () => {
                     </div>
                 </div>
                 <div className="our-all">
-                    <div>
+                    <div className="our_block_all1">
                         <div className="our_block_all"/>
                         <div className="ipsum">
                             <img className="alt" src={ourOneTw} alt=""/>
