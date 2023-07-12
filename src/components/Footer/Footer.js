@@ -12,24 +12,18 @@ const Footer = () => {
                 <div className="footer">
                     <div className="footer-contact">
                         <h1>Контакты</h1>
-                        <a href="tel:+996 647 5648">
-                            <h2>+996 647 5648</h2>
-                        </a>
-                        <a href="tel:+996 647 5648">
-                            <h2>+996 647 5648</h2>
-                        </a>
-                        <a href="tel:+996 647 5648">
-                            <h2>+996 647 5648</h2>
+                        <a href="tel:+996 990 115 117">
+                            <h2>+996 990 115 117</h2>
                         </a>
                     </div>
                     <div className="footer-contact">
                         <h1>Мы всегда на связи</h1>
-                        <div>
+                        <div className="img-footer">
                             <img src={tel} alt=""/>
-                            <img src={fac} alt=""/>
-                            <img src={fat} alt=""/>
-                            <img src={you} alt=""/>
-                            <img src={insta} alt=""/>
+                            <a href="https://wa.me/1234567890?text=hello+123">
+                                <img src={fat} alt=""/>
+                            </a>
+
                         </div>
                     </div>
                     <div className="footer-contact">
@@ -38,7 +32,7 @@ const Footer = () => {
                             Сб-Вс: 12:00-16:00</p>
                     </div>
                 </div>
-                <h2 className="dolor">Бишкек, ipsum dolor sit amet consectetur</h2>
+                <h2 className="dolor">Все права защищены 2023 &copy;</h2>
                 <div className="footer-line"/>
             </div>
         </div>

@@ -29,6 +29,8 @@
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+    font-weight: 600;
+    line-height: 150%;
 }
 
 .logo {
@@ -48,6 +50,9 @@
     font-size: 15px;
     cursor: pointer;
     margin-left: 200px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
 }
 
 
@@ -56,7 +61,7 @@
 
 #about {
     background: url("./img/34426968_sl_020622_4930_21 1.svg") no-repeat center / cover;
-    min-height: 110vh;
+    min-height: 100vh;
 }
 
 .about_navbar {
@@ -66,15 +71,17 @@
 .about_navbar h1 {
     font-size: 54px;
     color: white;
-    width: 544px;
     margin-bottom: 20px;
+    line-height: 1;
+    width: 60%;
+    font-weight: 600;
 }
 
 .about_navbar p {
     color: white;
     font-size: 16px;
-    width: 524px;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 .about_navbar button {
@@ -82,7 +89,8 @@
     padding: 17px 60px 17px 60px;
     border: none;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -92,7 +100,7 @@
     width: 100%;
     background: #051208;
     height: 68px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .about_slider h5 {
@@ -261,10 +269,10 @@
 
 .block h1 {
     color: #FFF;
+    font-weight: 600;
     text-align: right;
     font-size: 30px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
     margin: 0 0 20px 0;
@@ -278,7 +286,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
 }
 
 
@@ -291,7 +298,6 @@
     grid-gap: 1rem;
     padding: 40px 0;
     margin-left: 40px;
-    margin-bottom: 45px;
 }
 
 .our-h1 {
@@ -312,12 +318,14 @@
     opacity: 0.1;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
+    position: relative;
 }
 
 .our_block-all {
     z-index: 1;
-    margin-top: -113%;
+    margin-top: -31.5%;
     margin-left: -32px;
+    position: absolute;
 }
 
 .ourOne {
@@ -329,7 +337,7 @@
     text-align: center;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
     width: 280px;
     margin-left: 61px;
@@ -340,7 +348,7 @@
     color: #FFF;
     text-align: center;
     width: 300px;
-    font-size: 13px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -351,7 +359,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
-    padding: 40px 0;
+    padding: 10px 0;
     margin-left: 40px;
 }
 
@@ -363,12 +371,14 @@
     border-radius: 10px;
     margin-top: -24px;
     padding: 30px 30px 30px 30px;
+    position: relative;
 }
 
 .ipsum {
     z-index: 1;
-    margin-top: -61%;
+    margin-top: -26%;
     margin-left: 92px;
+    position: absolute;
 }
 
 .alt {
@@ -417,6 +427,7 @@
     opacity: 0;
     pointer-events: none;
     transition: 0.5s;
+    z-index: 999;
 }
 
 .modal__one.active {
@@ -442,7 +453,7 @@
 .names__two {
     width: 420px;
     height: 550px;
-    background-color: rgb(152, 150, 150);
+    background-color: #18181a;
     border-radius: 6px;
     margin: 30px 0 0 360px;
     position: absolute;
@@ -458,19 +469,19 @@
 .names__two h1 {
     color: #fff;
     font-size: 35px;
-    padding: 30px 0 0 45px;
+    padding: 30px 0 0 0;
     font-weight: 400;
     line-height: 1;
+    text-align: center;
 }
 
 .names__two p {
     color: #fff;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 150%;
-    width: 377px;
+    font-size: 16px;
+    font-weight: 300 !important;
+    line-height: 1;
     text-align: center;
-    padding: 0 0 0 33px;
+    padding: 0 20px;
 }
 
 .modal_form {
@@ -480,18 +491,22 @@
 .modal_form input {
     width: 330px;
     height: 50px;
+    font-family: Gilroy,sans-serif;
     margin-left: 45px;
     outline: none;
     border-radius: 10px;
     padding: 0 0 0 10px;
     border: none;
-    background-color: rgb(206, 205, 205);
+    background-color: rgb(255, 225, 225);
     margin-bottom: 20px;
     transition: all .3s ease;
     display: block;
 }
 
 .form-item textarea {
+    font-family: Gilroy,sans-serif;
+    font-weight: normal;
+    font-size: 14px;
     display: block;
     width: 330px;
     height: 140px;
@@ -620,7 +635,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .block_safe h1 {
@@ -820,7 +835,7 @@
     color: #FFF;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 30px;
     width: 400px;
     margin: 18px 0 20px 31px;
@@ -830,7 +845,7 @@
     color: #FFF;
     font-size: 17px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 32px;
     width: 450px;
     margin: 0 0 20px 31px;
@@ -959,7 +974,7 @@
 
 #footer {
     width: 100%;
-    height: 370px;
+    height: 220px;
     background: #000;
     margin-top: 150px;
 }
@@ -969,7 +984,7 @@
     justify-content: space-between;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
-    padding: 80px 0;
+    padding: 0px 0;
     /*margin-left: 40px;*/
 }
 
@@ -997,25 +1012,25 @@
 .footer-contact p {
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
 .footer-contact img {
     width: 30px;
-    margin: 10px 10px 0 8px;
+    margin: 10px 10px 0 15px;
 }
 
 .dolor {
     color: #FFF;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
-
+    margin-top: 80px;
 }
 
 .footer-line {
@@ -1148,6 +1163,13 @@
         transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
     }
 
+    .our_block-all {
+        z-index: 1;
+        margin-top: -108.5%;
+        margin-left: -32px;
+        position: absolute;
+    }
+
     .about_navbar h1 {
         color: #FFF;
         width: 343px;
@@ -1260,6 +1282,7 @@
         text-transform: uppercase;
         margin-left: 0;
         margin-top: 20px;
+        margin-top: 100px;
     }
 
     .block p {
@@ -1282,7 +1305,7 @@
         font-weight: 600;
         line-height: normal;
         letter-spacing: 1.4px;
-        margin-top: 850px;
+        margin-top: 1040px;
     }
 
     .our {
@@ -1291,7 +1314,7 @@
         grid-gap: 1rem;
         padding: 40px 0 0 0;
         margin-left: 17px;
-        margin-top: 40px;
+        margin-top: 0;
     }
 
     .our_block {
@@ -1301,7 +1324,7 @@
         opacity: 0.1;
         border-radius: 10px;
         padding: 20px 20px 20px 20px;
-        /*margin: 50px 0 0 0;*/
+        margin: 0px 0 50px 0;
     }
 
     .our_block_all {
@@ -1311,12 +1334,12 @@
         opacity: 0.1;
         border-radius: 10px;
         padding: 20px 20px 20px 20px;
-        /*margin: 100px 0 0 0;*/
+        margin: -25px 0 0 0
     }
 
     .ipsum {
         z-index: 1;
-        margin-top: -112%;
+        margin-top: -96%;
         margin-left: 0;
     }
 
@@ -1327,7 +1350,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        margin-left: 7px;
+        margin-left: -33px;
         margin-bottom: 10px;
     }
 
@@ -1348,22 +1371,12 @@
         grid-gap: 1rem;
         padding: 40px 0;
         margin-left: 16px;
+        display: none;
     }
 
-    .class {
-        margin: 0 0 50px 0;
-    }
-
-    .class1 {
-        margin: 0 0 70px 0;
-    }
-
-    .class2 {
-        margin: 0 0 70px 0;
-    }
 
     .our_block_all1 {
-        margin: 0 0 128px 0;
+        margin: 0 0 69px 0
     }
 
     .benefits1 {
@@ -1448,12 +1461,18 @@
         margin: 0 0 20px 24px;
     }
 
+    .line-block {
+        width: 100%;
+        margin-top: 160px;
+    }
+
     .arty {
         color: #FFF;
-        font-size: 20px;
+        font-size: 19px;
         font-style: normal;
         font-weight: 500;
         line-height: 30px;
+        width: 303px;
         margin: 18px 0 20px 25px;
     }
 
@@ -1497,10 +1516,15 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        flex-direction: column;
         padding: 0 0;
         margin-left: 0;
     }
     .footer-contact{
         margin-bottom: 20px;
     }
+    .img-footer{
+        margin-left: 48px;
+    }
+
 }

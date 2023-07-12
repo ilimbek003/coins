@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae264948.css",
+    "main.js": "/static/js/main.d2843564.js",
+    "static/media/34426968_sl_020622_4930_21 1.svg": "/static/media/34426968_sl_020622_4930_21 1.76beccb322f849e6192d.svg",
+    "static/media/safe.webp.svg": "/static/media/safe.webp.8fec19e78f27d9585f6d05a8f3c4068c.svg",
+    "static/media/Poppins-ExtraLight.ttf": "/static/media/Poppins-ExtraLight.80d871eaca4529ce179e.ttf",
+    "static/media/иконка обший баланс.svg": "/static/media/иконка обший баланс.2dbda1cd2175294624f7b6724b572ee9.svg",
+    "static/media/Автоматические выплаты иконка.png": "/static/media/Автоматические выплаты иконка.0996c2d71eb136e2a996.png",
+    "static/media/Выдный обмен иконка.svg": "/static/media/Выдный обмен иконка.8e24706409f26f157d978e762211f2d3.svg",
+    "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "static/media/AML icons.svg": "/static/media/AML icons.5114429bb45667348aac7ecc7c337b82.svg",
+    "static/media/Raleway-Medium.woff2": "/static/media/Raleway-Medium.496f74ad061875353761.woff2",
+    "static/media/Поддержка иконка.svg": "/static/media/Поддержка иконка.dded0484c8d7bef491c7d32d7d94ce80.svg",
+    "static/media/Frame.png": "/static/media/Frame.484c9559655479364635.png",
+    "static/media/info-slider-prev-spider.svg": "/static/media/info-slider-prev-spider.83d6509dac3c6dd0f33406f9e24f6f3e.svg",
+    "static/media/6.svg": "/static/media/6.2df192212e75e78bf60c8f70c73fb499.svg",
+    "static/media/div.wrap-intro__submit.svg": "/static/media/div.wrap-intro__submit.dc84145e4d8231caba56619a995a5309.svg",
+    "static/media/7.svg": "/static/media/7.8e25ad6092fb453bbdcd95b6f8fd47d9.svg",
+    "static/media/press-cryptonews.svg.svg": "/static/media/press-cryptonews.svg.860af281e94910b5be5c359832d0d609.svg",
+    "static/media/press-morningstar.svg.svg": "/static/media/press-morningstar.svg.19c6d1d70d08f33cca86b0143e8d5ed7.svg",
+    "static/media/Frame (2).svg": "/static/media/Frame (2).fc22238a19ffeba30860139457ded1ff.svg",
+    "static/media/press-ton.svg.svg": "/static/media/press-ton.svg.c4b238c89f9af98747bc50ea223135fb.svg",
+    "static/media/Frame (4).svg": "/static/media/Frame (4).6f2a5b23c01596de8136408c601cd27c.svg",
+    "static/media/press-benzinga.svg.svg": "/static/media/press-benzinga.svg.9b616aed1fe0999c4b07797017ab65e7.svg",
+    "static/media/Frame (3).svg": "/static/media/Frame (3).70b1226ff72e47418cf23f9b86df53e9.svg",
+    "static/media/Frame.svg": "/static/media/Frame.8c11abe454662bb0228afcf24336af78.svg",
+    "static/media/Frame (1).svg": "/static/media/Frame (1).ea57246ebc70b4fbe04ee5b77a655fc6.svg",
+    "static/media/линия.svg": "/static/media/линия.0f32d52b092be81893a910d031051ea3.svg",
+    "index.html": "/index.html",
+    "main.ae264948.css.map": "/static/css/main.ae264948.css.map",
+    "main.d2843564.js.map": "/static/js/main.d2843564.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae264948.css",
+    "static/js/main.d2843564.js"
+  ]
+}

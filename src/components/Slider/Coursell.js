@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import img from "../../img/Frame.png"
 import btn from "../../img/div.wrap-intro__submit.svg"
+
 const Coursell = () => {
     const settings = {
         dots: false,
@@ -114,19 +115,20 @@ const Coursell = () => {
                             </button>
                         </div>
                         <div className="block">
-                            <h1>Dorem ipsum dolor </h1>
-                            <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
-                                est
-                                a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
-                                lacus,
-                                ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                                lectus.
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                                himenaeos.
-                                Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut
-                                rhoncus
-                                ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi
-                                convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+                            <h1>Как
+                                купить криптовалюту?</h1>
+                            <p>Самый базовый способ – майнинг. То есть, использование мощностей собственного компьютера
+                                для добычи выбранной монеты. Но для существенного заработка с помощью майнинга требуются
+                                немалые расходы на компьютерное оборудование. А цены на него значительно выросли в
+                                последние годы.
+
+                                Выгоднее смотрится вариант купить криптовалюту за фиатные деньги. Приобретенные монеты
+                                можно отложить в долгий ящик, ожидая подъема цены, или использовать на криптовалютных
+                                торгах для получения более быстрой прибыли.
+
+                                Но свободно купить крипту в Кыргызстане не представляется возможным. Физические лица
+                                могут только обменять сомы на нужную криптовалюту в пунктах-обменниках. Другие способы
+                                приобретения цифровых монет считаются незаконными.
                             </p>
                         </div>
                     </div>
