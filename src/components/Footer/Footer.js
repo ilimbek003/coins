@@ -20,7 +20,7 @@ const Footer = () => {
                         <h1>Мы всегда на связи</h1>
                         <div className="img-footer">
                             <img src={tel} alt=""/>
-                            <a href="https://wa.me/1234567890?text=hello+123">
+                            <a href="https://wa.me/990 115 117?text=hello+996">
                                 <img src={fat} alt=""/>
                             </a>
 

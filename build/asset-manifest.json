@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c95fb74f.css",
-    "main.js": "/static/js/main.54443362.js",
+    "main.css": "/static/css/main.4e8c6f6b.css",
+    "main.js": "/static/js/main.247f769f.js",
     "static/media/34426968_sl_020622_4930_21 1.svg": "/static/media/34426968_sl_020622_4930_21 1.76beccb322f849e6192d.svg",
     "static/media/safe.webp.svg": "/static/media/safe.webp.8fec19e78f27d9585f6d05a8f3c4068c.svg",
+    "static/media/34426968_sl_020622_4930_21 1.png": "/static/media/34426968_sl_020622_4930_21 1.b0853744c3414918ec20.png",
     "static/media/иконка обший баланс.svg": "/static/media/иконка обший баланс.2dbda1cd2175294624f7b6724b572ee9.svg",
     "static/media/Gilroy-Light.ttf": "/static/media/Gilroy-Light.0ac7c2f9cb59ea1ba11c.ttf",
     "static/media/Gilroy-Thin.ttf": "/static/media/Gilroy-Thin.fc813b757bc09eb509dc.ttf",
@@ -32,11 +33,11 @@
     "static/media/Frame (1).svg": "/static/media/Frame (1).ea57246ebc70b4fbe04ee5b77a655fc6.svg",
     "static/media/линия.svg": "/static/media/линия.0f32d52b092be81893a910d031051ea3.svg",
     "index.html": "/index.html",
-    "main.c95fb74f.css.map": "/static/css/main.c95fb74f.css.map",
-    "main.54443362.js.map": "/static/js/main.54443362.js.map"
+    "main.4e8c6f6b.css.map": "/static/css/main.4e8c6f6b.css.map",
+    "main.247f769f.js.map": "/static/js/main.247f769f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c95fb74f.css",
-    "static/js/main.54443362.js"
+    "static/css/main.4e8c6f6b.css",
+    "static/js/main.247f769f.js"
   ]
 }
