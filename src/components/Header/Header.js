@@ -56,6 +56,7 @@ const Header = () => {
 
                 <Modal active={modalActive} setActive={setModalActive}/>
             </div>
+
         </div>
     );
 };
