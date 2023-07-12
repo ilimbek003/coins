@@ -12,9 +12,15 @@ const Footer = () => {
                 <div className="footer">
                     <div className="footer-contact">
                         <h1>Контакты</h1>
-                        <h2><a href="tel:+996 647 5648">+996 647 5648</a></h2>
-                        <h2><a href="tel:+996 647 5648">+996 647 5648</a></h2>
-                        <h2><a href="tel:+996 647 5648">+996 647 5648</a></h2>
+                        <a href="tel:+996 647 5648">
+                            <h2>+996 647 5648</h2>
+                        </a>
+                        <a href="tel:+996 647 5648">
+                            <h2>+996 647 5648</h2>
+                        </a>
+                        <a href="tel:+996 647 5648">
+                            <h2>+996 647 5648</h2>
+                        </a>
                     </div>
                     <div className="footer-contact">
                         <h1>Мы всегда на связи</h1>

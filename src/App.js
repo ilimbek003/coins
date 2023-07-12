@@ -8,7 +8,6 @@ import Block from "./components/Block/BLock";
 import Slick from "./components/Slick/Slick";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Accordion from "./components/Accordion/Accordion";
-import Request from "./components/Request/Request";
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
             <Slick/>
             <AboutUs/>
             <Accordion/>
-            <Request/>
             <Footer/>
         </>
     );

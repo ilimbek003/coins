@@ -15,30 +15,25 @@ const Our = () => {
                         <div className="our_block"/>
                         <div className="our_block-all">
                             <img src={our} alt=""/>
-                            <h2>Автоматические выплаты на любые счета российских банков</h2>
-                            <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos.</p>
+                            <h2>Безопасность и конфиденциальность</h2>
+                            <p>100% Гарантия безопасности и конфеденциальности. Документы не требуются.</p>
                         </div>
                     </div>
                     <div className="class1">
                         <div className="our_block"/>
                         <div className="our_block-all">
                             <img className="ourOne" src={ourOne} alt=""/>
-                            <h2>Выгодный обмен криптовалют без больших комиссий</h2>
-                            <p>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos.</p>
+                            <h2>Легко и быстро</h2>
+                            <p>Моментальная оплата и отправка криптовалют. Поступление на Ваш кошелек в течение часа</p>
                         </div>
                     </div>
                     <div className="class2">
                         <div className="our_block"/>
                         <div className="our_block-all">
                             <img src={ourOneT} alt=""/>
-                            <h2>Общий баланс USDT для всех сетей без комиссии</h2>
-                            <p>Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos.</p>
+                            <h2>Доверенная
+                                команда курьеров</h2>
+                            <p>Наши сотрудники доставят/заберут наличные в любой точке города</p>
                         </div>
                     </div>
                 </div>
@@ -47,20 +42,18 @@ const Our = () => {
                         <div className="our_block_all"/>
                         <div className="ipsum">
                             <img className="alt" src={ourOneTw} alt=""/>
-                            <h2>Доверенная команда</h2>
-                            <p>Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos.</p>
+                            <h2>Фиксированная
+                                комиссия без посредников
+                            </h2>
+                            <p>  Выгодный актуальный курс по тарифам Binance.com</p>
                         </div>
                     </div>
                     <div>
                         <div className="our_block_all"/>
                         <div className="ipsum">
                             <img className="aml" src={aml} alt=""/>
-                            <h2>Легко и безопасно</h2>
-                            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos.</p>
+                            <h2>Гарантии и преимущества</h2>
+                            <p>Круглосуточная обработка заявок и самый лучший курс на рынке для партнеров.</p>
                         </div>
                     </div>
                 </div>

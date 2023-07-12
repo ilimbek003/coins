@@ -31,20 +31,21 @@ const BLock = () => {
                             <h6>Простота</h6>
                         </div>
                     </div>
-                   <div className="benefits1">
-                       <div className="benefits">
-                           <img src={info} alt=""/>
-                           <div className="drop"/>
-                           <h6>Сервис</h6>
-                       </div>
-                   </div>
+                    <div className="benefits1">
+                        <div className="benefits">
+                            <img src={info} alt=""/>
+                            <div className="drop"/>
+                            <h6>Сервис</h6>
+                        </div>
+                    </div>
                 </div>
                 <div className="block_safe">
                     <div>
-                        <h1>Высокие лимиты</h1>
-                        <p>Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                            interdum,
-                            ac aliquet odio mattis.</p>
+                        <h1>Процесс обмена</h1>
+                        <p>Обмен можно произваодить в любом месте, в котором вам будет удобно
+
+                            Обмен считается успешным когда покупатель получает подтверждение о поступлении криптовалюты
+                            на кошелек, а продавец сумму, соответствующую сделке</p>
                     </div>
                     <img src={safe} alt=""/>
                 </div>

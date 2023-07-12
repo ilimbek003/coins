@@ -291,6 +291,7 @@
     grid-gap: 1rem;
     padding: 40px 0;
     margin-left: 40px;
+    margin-bottom: 45px;
 }
 
 .our-h1 {
@@ -446,6 +447,11 @@
     margin: 30px 0 0 360px;
     position: absolute;
     z-index: 999;
+}
+
+.isSubmitted h1 {
+    text-align: center;
+    font-size: 20px;
 }
 
 
@@ -816,12 +822,13 @@
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
+    width: 400px;
     margin: 18px 0 20px 31px;
 }
 
 .plain-one {
     color: #FFF;
-    font-size: 18px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
@@ -975,7 +982,7 @@
     margin: 0 0 10px 15px;
 }
 
-.footer-contact h2 a {
+.footer-contact  a h2 {
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -1225,7 +1232,7 @@
         justify-content: space-between;
         margin-top: 130px;
         flex-wrap: wrap;
-        margin-left: -4px;
+        margin-left: 0;
     }
 
     .cash-one {
@@ -1458,7 +1465,8 @@
     }
 
     .request-form input {
-        padding: 17px 135px 17px 32px;
+        width: 100%;
+        height: 50px;
         border-radius: 50px;
         background: transparent;
         outline: none;
