@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae264948.css",
-    "main.js": "/static/js/main.d2843564.js",
+    "main.css": "/static/css/main.c95fb74f.css",
+    "main.js": "/static/js/main.54443362.js",
     "static/media/34426968_sl_020622_4930_21 1.svg": "/static/media/34426968_sl_020622_4930_21 1.76beccb322f849e6192d.svg",
     "static/media/safe.webp.svg": "/static/media/safe.webp.8fec19e78f27d9585f6d05a8f3c4068c.svg",
-    "static/media/Poppins-ExtraLight.ttf": "/static/media/Poppins-ExtraLight.80d871eaca4529ce179e.ttf",
     "static/media/иконка обший баланс.svg": "/static/media/иконка обший баланс.2dbda1cd2175294624f7b6724b572ee9.svg",
+    "static/media/Gilroy-Light.ttf": "/static/media/Gilroy-Light.0ac7c2f9cb59ea1ba11c.ttf",
+    "static/media/Gilroy-Thin.ttf": "/static/media/Gilroy-Thin.fc813b757bc09eb509dc.ttf",
+    "static/media/Gilroy-Medium.ttf": "/static/media/Gilroy-Medium.1c23f810e531d0702f76.ttf",
+    "static/media/Gilroy-Regular.ttf": "/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
+    "static/media/Gilroy-Semibold.ttf": "/static/media/Gilroy-Semibold.41fa36c3c8e966b35423.ttf",
+    "static/media/Gilroy-Bold.ttf": "/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/Gilroy-Extrabold.ttf": "/static/media/Gilroy-Extrabold.92e435f7fae6070d73bb.ttf",
     "static/media/Автоматические выплаты иконка.png": "/static/media/Автоматические выплаты иконка.0996c2d71eb136e2a996.png",
     "static/media/Выдный обмен иконка.svg": "/static/media/Выдный обмен иконка.8e24706409f26f157d978e762211f2d3.svg",
-    "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
-    "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
     "static/media/AML icons.svg": "/static/media/AML icons.5114429bb45667348aac7ecc7c337b82.svg",
-    "static/media/Raleway-Medium.woff2": "/static/media/Raleway-Medium.496f74ad061875353761.woff2",
     "static/media/Поддержка иконка.svg": "/static/media/Поддержка иконка.dded0484c8d7bef491c7d32d7d94ce80.svg",
     "static/media/Frame.png": "/static/media/Frame.484c9559655479364635.png",
     "static/media/info-slider-prev-spider.svg": "/static/media/info-slider-prev-spider.83d6509dac3c6dd0f33406f9e24f6f3e.svg",
@@ -29,11 +32,11 @@
     "static/media/Frame (1).svg": "/static/media/Frame (1).ea57246ebc70b4fbe04ee5b77a655fc6.svg",
     "static/media/линия.svg": "/static/media/линия.0f32d52b092be81893a910d031051ea3.svg",
     "index.html": "/index.html",
-    "main.ae264948.css.map": "/static/css/main.ae264948.css.map",
-    "main.d2843564.js.map": "/static/js/main.d2843564.js.map"
+    "main.c95fb74f.css.map": "/static/css/main.c95fb74f.css.map",
+    "main.54443362.js.map": "/static/js/main.54443362.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae264948.css",
-    "static/js/main.d2843564.js"
+    "static/css/main.c95fb74f.css",
+    "static/js/main.54443362.js"
   ]
 }

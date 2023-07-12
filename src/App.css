@@ -44,7 +44,8 @@
 
 .btn {
     background: #87DB1C;
-    padding: 19px 40px 19px 40px;
+    width: 210px;
+    height: 50px;
     border: none;
     border-radius: 30px;
     font-size: 15px;
@@ -53,8 +54,26 @@
     font-style: normal;
     font-weight: 600;
     line-height: 15px;
+    position: relative;
 }
 
+.btn:before {
+    content: '';
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*left: 0;*/
+    width: 0;
+    height: 100%;
+    background: linear-gradient(119deg, #80DB1C 0%, #00F99F 53.65%, #000 100%);
+    transition: 0.5s ease;
+}
+
+.btn:hover:before {
+    border-radius: 30px;
+    width: 100%;
+}
 
 /*///////About///////////////////////////////////////////////////////*/
 
@@ -68,7 +87,7 @@
     padding-top: 200px;
 }
 
-.about_navbar h1 {
+.kgs {
     font-size: 54px;
     color: white;
     margin-bottom: 20px;
@@ -84,14 +103,30 @@
     font-weight: 400;
 }
 
-.about_navbar button {
+.submit__btn {
     background: #87DB1C;
-    padding: 17px 60px 17px 60px;
+    width: 220px;
+    height: 50px;
     border: none;
     border-radius: 30px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.span {
+    position: absolute;
+    z-index: 9999;
+    top: 16px;
+    left: 45px;
+}
+
+.submit__btn:hover {
+    border-radius: 30px;
+    background: linear-gradient(119deg, #80DB1C 0%, #00F99F 53.65%, #000 100%);
+    transition: 0.5s ease;
 }
 
 /*///////////////coursell-item////////////////////////////*/
@@ -450,9 +485,14 @@
     transform: scale(1);
 }
 
+
+
 .names__two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 420px;
-    height: 550px;
+    height: 520px;
     background-color: #18181a;
     border-radius: 6px;
     margin: 30px 0 0 360px;
@@ -462,14 +502,15 @@
 
 .isSubmitted h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    color: #fafafa;
 }
 
 
-.names__two h1 {
+.two_one {
     color: #fff;
     font-size: 35px;
-    padding: 30px 0 0 0;
+    padding: 5px 0 0 0;
     font-weight: 400;
     line-height: 1;
     text-align: center;
@@ -481,7 +522,7 @@
     font-weight: 300 !important;
     line-height: 1;
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .modal_form {
@@ -491,8 +532,8 @@
 .modal_form input {
     width: 330px;
     height: 50px;
-    font-family: Gilroy,sans-serif;
     margin-left: 45px;
+    font-size: 23px;
     outline: none;
     border-radius: 10px;
     padding: 0 0 0 10px;
@@ -504,9 +545,8 @@
 }
 
 .form-item textarea {
-    font-family: Gilroy,sans-serif;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: 600;
+    font-size:16px;
     display: block;
     width: 330px;
     height: 140px;
@@ -522,12 +562,12 @@
 
 .form-item textarea:focus + label,
 .form-item textarea:valid + label {
-    font-size: 11px;
+    font-size: 13px;
     top: -7px
 }
 
 .form-item textarea:focus + label {
-    color: blue
+    color: gray;
 }
 
 .form-item {
@@ -541,6 +581,8 @@
     height: 50px;
     margin-left: 46px;
     outline: none;
+    font-weight: 600;
+    font-size:16px;
     border-radius: 10px;
     background-color: rgb(206, 205, 205);
     border: solid 1px #ccc;
@@ -554,10 +596,10 @@
     z-index: 2;
     top: 13px;
     left: 10px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     padding: 0 10px;
-    color: #FFFFFF;
+    color: black;
     transition: all .3s ease;
     margin-left: 37px;
 
@@ -565,29 +607,59 @@
 
 .form-item input:focus + label,
 .form-item input:valid + label {
-    font-size: 12px;
+    font-size: 13px;
     top: -7px;
     color: #FFFFFF;
 }
 
 .form-item input:focus + label {
-    color: blue
+    color: gray;
 }
 
-.submit {
+.submit--btn {
     color: #6B6B6B;
     font-size: 14px;
-    background: linear-gradient(107.03deg, #EDF4C3 -3.83%, #FFD84C 65.62%);
+    border: 2px solid #00F99F;
     transition: all .3s;
     font-weight: 800;
-    border-radius: 4px;
+    border-radius: 5px;
     letter-spacing: 0.095em;
     text-transform: uppercase;
+    width: 260px;
+    height: 50px;
+    margin-left: 80px;
+    position: relative;
+    background: transparent;
 }
 
-.submit:hover {
-    background: transparent;
-    border: 1px solid #FFD84C;
+.submit--btn:before {
+    content: '';
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(119deg, #80DB1C 0%, #00F99F 53.65%, #000 100%);
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+    color: #FFFFFF;
+}
+
+.submit--btn:hover:before {
+    border-radius: 5px;
+    width: 0;
+    color: #FFFFFF;
+}
+
+.span1{
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 80px;
+    color: black;
+}
+
+.span1:hover{
     color: #FFFFFF;
 }
 
@@ -658,7 +730,7 @@
     width: 430px;
 }
 
-.slick {
+#slick {
     margin-top: 150px;
 }
 
@@ -997,7 +1069,7 @@
     margin: 0 0 10px 15px;
 }
 
-.footer-contact  a h2 {
+.footer-contact a h2 {
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -1059,6 +1131,7 @@
         align-items: center;
         justify-content: space-between;
         margin-left: 10px;
+
     }
 
     nav {
@@ -1069,6 +1142,18 @@
         padding: 1em;
     }
 
+    .menu{
+        position: absolute;
+        width: 100%;
+        height: 382px;
+        background:#000000 url("./img/34426968_sl_020622_4930_21 1.png")no-repeat center / cover;
+        min-height: 50vh;
+        top: 110px;
+        left: 0;
+        z-index: 1;
+        transition: 5s ease;
+    }
+
     .burger-menu {
         height: 100%;
         width: 4em;
@@ -1077,6 +1162,18 @@
         align-items: flex-end;
         justify-content: space-between;
         cursor: pointer;
+        transition: 5s ease;
+    }
+
+    .bur{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 85px;
+        transition: 2s ease;
+        margin-top: 50px;
     }
 
     .burger-bar {
@@ -1086,17 +1183,6 @@
         border-radius: 0.5em;
     }
 
-    .menu {
-        z-index: 1;
-        animation: name 2s;
-        position: absolute;
-        border-radius: 15px;
-        margin-left: 29px;
-        margin-top: 20px;
-        background: #000;
-        width: 100%;
-        /*height: 100%;*/
-    }
 
     .menu ul li a {
         color: #FFF;
@@ -1105,7 +1191,6 @@
         font-style: normal;
         font-weight: 700;
         line-height: 200%;
-        /*z-index: 1;*/
     }
 
     .test6 {
@@ -1116,7 +1201,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 5px;
+        margin: 0 0 20px 0;
     }
 
     .menu button {
@@ -1493,6 +1578,7 @@
         font-size: 18px;
         margin-bottom: 40px;
     }
+
     .textarea {
         background: transparent;
         outline: none;
@@ -1502,6 +1588,7 @@
         padding: 21px 135px 120px 32px;
         margin: 0 0 0 0;
     }
+
     .request-submit {
         border-radius: 30px;
         border: 1px solid #C9FA49;
@@ -1511,6 +1598,7 @@
         margin: 40px 0 0 40px;
         cursor: pointer;
     }
+
     .footer {
         display: flex;
         justify-content: center;
@@ -1520,11 +1608,70 @@
         padding: 0 0;
         margin-left: 0;
     }
-    .footer-contact{
+
+    .footer-contact {
         margin-bottom: 20px;
     }
-    .img-footer{
+
+    .img-footer {
         margin-left: 48px;
     }
 
+    .names__two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 374px;
+        height: 540px;
+        background-color: #18181a;
+        border-radius: 6px;
+        margin: 120px 0 0 0;
+        position: absolute;
+        z-index: 2;
+    }
+    .form-item input {
+        display: block;
+        width: 286px;
+        height: 50px;
+        margin-left: 32px;
+        outline: none;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: rgb(206, 205, 205);
+        border: solid 1px #ccc;
+        transition: all .3s ease;
+        padding: 0 11px;
+
+    }
+    .form-item textarea {
+        font-weight: 600;
+        font-size: 16px;
+        display: block;
+        width: 285px;
+        height: 140px;
+        margin-left: 32px;
+        outline: none;
+        border-radius: 10px;
+        background-color: rgb(206, 205, 205);
+        border: solid 1px #ccc;
+        transition: all .3s ease;
+        padding: 10px 15px;
+
+    }
+    .submit--btn {
+        /*color: #6B6B6B;*/
+        font-size: 14px;
+        border: 2px solid #00F99F;
+        transition: all .3s;
+        font-weight: 800;
+        border-radius: 5px;
+        letter-spacing: 0.095em;
+        text-transform: uppercase;
+        width: 260px;
+        height: 50px;
+        margin-left: 41px;
+        position: relative;
+        background: transparent;
+    }
 }

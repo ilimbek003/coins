@@ -6,9 +6,9 @@ const About = () => {
         <div id="about">
             <div className="container">
                 <div className="about_navbar">
-                    <h1>Обменяем криптовалюту за наличные KGS/USD/EUR</h1>
+                    <h1 className="kgs">Обменяем криптовалюту за наличные KGS/USD/EUR</h1>
                     <p>Продажа и покупка биткоинов, эфиров и других криптовалют в Бишкеке</p>
-                    <button onClick={() => setModalActive(true)}>Оставить заявку</button>
+                    <button onClick={() => setModalActive(true)} className="submit__btn">Оставить заявку</button>
                     <Modal active={modalActive} setActive={setModalActive}/>
                 </div>
             </div>

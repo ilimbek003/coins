@@ -45,7 +45,7 @@ const Slick = () => {
         ]
     };
     return (
-        <div className="slick">
+        <div id="slick">
             <Slider {...settings} >
                 <div>
                     <img src={pres} alt=""/>
