@@ -1393,8 +1393,8 @@
 
     .good p {
         color: #FFFFFF;
-        font-size: 12px;
-        width: 195px;
+        font-size: 14px;
+        width: 320px;
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -1481,5 +1481,16 @@
         font-size: 15px;
         margin: 40px 0 0 40px;
         cursor: pointer;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 0;
+        margin-left: 0;
+    }
+    .footer-contact{
+        margin-bottom: 20px;
     }
 }
