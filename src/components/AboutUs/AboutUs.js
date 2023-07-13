@@ -50,139 +50,71 @@ const AboutUs = () => {
                 <h1 className="about_us-h1">Что о нас говорят</h1>
                 <div className="flex">
                     <Slider {...settings} >
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse-one">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Sorem</h6>
-                                    <p>Korem</p>
-                                </div>
+                                <h1>Кенешбеков Бека</h1>
+                                <p>Биржа действительно хороша. Но сейчас подымаются сильные конкуренты, которые
+                                    могут перехватывать инициативу у лидирующих криптоплощадок.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Dorem</h6>
-                                    <p>Torem</p>
-                                </div>
+                                <h1>Алтынбеков Курсант</h1>
+                                <p>Хочу оставить положительный отзыв о биржа. Работаю здесь полгода и пока никаких
+                                    серьезных претензий нет. Устраивает и сама платформа и низкие комиссии.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse-one">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Sorem</h6>
-                                    <p>Korem</p>
-                                </div>
+                                <h1>Илияз уулу Ихсан</h1>
+                                <p> Сейчас рынок криптовалюты во многом ориентируется на торги, которые проходят на этой
+                                    бирже. Думаю, что не ошибусь, говоря о том, что на Бинанс торгует много трейдеров.
+                                    </p>
                             </div>
                         </div>
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Dorem</h6>
-                                    <p>Torem</p>
-                                </div>
+                                <h1>Кайырбеков Илим</h1>
+                                <p>Я работаю на биржа только через компьютер. Через телефон только отслеживаю курсы
+                                    криптовалютных пар.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse-one">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Sorem</h6>
-                                    <p>Korem</p>
-                                </div>
+                                <h1>Курманбеков Манас</h1>
+                                <p>Несколько положительных слов в пользу Binance. Хорошая платформа, легко разобраться и
+                                    торговать, хороший саппорт, заработанные средства тоже нормально выводят.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Dorem</h6>
-                                    <p>Torem</p>
-                                </div>
+                                <h1>Мухамбетов Бексултан</h1>
+                                <p>Все вроде ничего, но есть впечатление недоработанности, но насколько мне известно,
+                                    компания постоянно улучшает сайт и делает много для своих клиентов, потому жду с
+                                    нетерпением приятных обновлений.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse-one">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Sorem</h6>
-                                    <p>Korem</p>
-                                </div>
+                                <h1>Муратов Данияр</h1>
+                                <p>Достаточно уверенный среднячок на крипторынке. Я здесь уже достаточно давно, и могу с
+                                    уверенностью сказать, что биржа реально рабочая. Есть все необходимое.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Dorem</h6>
-                                    <p>Torem</p>
-                                </div>
+                                <h1>Чынгызалиева Адеми</h1>
+                                <p>Куча разных способов заработать, даже пассивно. Собственно так и делаю. Разместил
+                                    через сервис Binance Earn BUSD и за 14 суток заработал 6,48% от 200$ примерно. Ну
+                                    нормально!</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="about_us_padding">
                             <div className="good">
-                                <h1>Soooo GOOD!</h1>
-                                <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos himenaeos.</p>
-                            </div>
-                            <div className="ellipse-one">
-                                <div className="ellipse-all"/>
-                                <div>
-                                    <h6>Sorem</h6>
-                                    <p>Korem</p>
-                                </div>
+                                <h1>Назарбек уулу Нурбек</h1>
+                                <p>Стабильные заработки на уровне 300$ в месяц, а в декабря вообще 420$ вышло. Торгуйте
+                                    на битке через Binance и будет вам счастье. Ликвидность позволяет хорошо
+                                    зарабатывать</p>
                             </div>
                         </div>
                     </Slider>

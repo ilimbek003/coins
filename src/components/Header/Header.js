@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useState} from 'react';
 import img from '../../img/L.png'
 import * as Scroll from 'react-scroll';
 import {Link} from 'react-scroll'

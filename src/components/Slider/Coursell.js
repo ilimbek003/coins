@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Slider from "react-slick";
 import img from "../../img/Frame.png"
 import btn from "../../img/div.wrap-intro__submit.svg"
+import Modal from "../Modal/Modal";
 
 const Coursell = () => {
+
     const settings = {
         dots: false,
         infinite: true,
@@ -40,6 +42,8 @@ const Coursell = () => {
             }
         ]
     };
+    const [modalActive , setModalActive] = useState(false)
+    const [number , setNumber] = useState('')
     return (
         <div>
             <div className="about_slider">
@@ -81,7 +85,11 @@ const Coursell = () => {
                             <form className="form">
                                 <label className="label">Отдаю</label>
                                 <div>
-                                    <input type="text" value="1 000.00"/>
+                                    <input
+                                        onChange={(e) => setNumber( e.target.value)}
+                                        type="number"
+                                        value={number}
+                                    />
                                     <div className="tether">
                                         <p>USDT</p>
                                         <span>
@@ -92,12 +100,15 @@ const Coursell = () => {
                                         <div className="line-wihte"/>
                                         <div className="line"/>
                                     </div>
-                                    <p className="cash">Tether TRC20 - CASH USD</p>
-                                    <p className="cash-one">1 = 1.009</p>
                                 </div>
                                 <label className="label">Получаю</label>
                                 <div>
-                                    <input type="text" value="1 009.00"/>
+                                    <input
+                                        onChange={(e) => setNumber(e.target.value)}
+                                        value={number}
+                                        type="number"
+
+                                    />
                                     <div className="tether">
                                         <p>USD</p>
                                         <span>
@@ -110,7 +121,7 @@ const Coursell = () => {
                                     </div>
                                 </div>
                             </form>
-                            <button className="btn-click">
+                            <button onClick={() => setModalActive(true)} className="btn-click">
                                 <img src={btn} alt=""/>
                             </button>
                         </div>
@@ -132,6 +143,7 @@ const Coursell = () => {
                             </p>
                         </div>
                     </div>
+                    <Modal active={modalActive} setActive={setModalActive}/>
                 </div>
             </div>
         </div>

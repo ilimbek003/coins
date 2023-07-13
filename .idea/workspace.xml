@@ -5,56 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0334201f-1219-46d6-a653-a03d0175a565" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-Extrabold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-ExtraboldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Gilroy-UltraLight.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/build.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.4e8c6f6b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.4e8c6f6b.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.247f769f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.247f769f.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.247f769f.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/14.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/15.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/16.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/20.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/20.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/21.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/21.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/22.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/22.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/23.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/23.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/24.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/24.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/25.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/25.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/26.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/26.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/27.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/27.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ Our/Our.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ Our/Our.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUs/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs/AboutUs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Slider/Coursell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Coursell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Gilroy-ExtraBold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Gilroy-Light.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Poppins-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Raleway-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Raleway-ThinItalic.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,9 +69,9 @@
       <recent name="C:\Users\Алымбек\OneDrive\Рабочий стол\coins\src\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Алымбек\OneDrive\Рабочий стол\coins\src\img" />
       <recent name="C:\Users\Алымбек\OneDrive\Рабочий стол\coins\src\fonts" />
       <recent name="C:\Users\Алымбек\OneDrive\Рабочий стол\coins\public" />
-      <recent name="C:\Users\Алымбек\OneDrive\Рабочий стол\coins\src\img" />
       <recent name="C:\Users\Алымбек\OneDrive\Рабочий стол\coins\src\components\Header" />
     </key>
   </component>
@@ -118,7 +84,10 @@
       <option name="presentableId" value="Default" />
       <updated>1688977303635</updated>
       <workItem from="1688977305567" duration="63088000" />
-      <workItem from="1689132695473" duration="28702000" />
+      <workItem from="1689132695473" duration="41320000" />
+      <workItem from="1689194865754" duration="77000" />
+      <workItem from="1689195281344" duration="3327000" />
+      <workItem from="1689237016560" duration="9715000" />
     </task>
     <servers />
   </component>

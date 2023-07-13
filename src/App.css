@@ -203,7 +203,7 @@
     /*align-items: center;*/
     justify-content: center;
     z-index: 1;
-    margin-top: -244px;
+    margin-top: -288px;
     margin-left: 80px;
 }
 
@@ -215,6 +215,7 @@
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 5px;
+    margin-top: 40px;
 }
 
 .form input {
@@ -335,6 +336,8 @@
     margin-left: 40px;
 }
 
+
+
 .our-h1 {
     color: #FFF;
     text-align: center;
@@ -349,22 +352,22 @@
 .our_block {
     width: 340px;
     height: 400px;
-    background: #F0F2FF;
-    opacity: 0.1;
+    background: #1c1c1c;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
     position: relative;
 }
 
-.our_block-all {
-    z-index: 1;
-    margin-top: -31.5%;
-    margin-left: -32px;
-    position: absolute;
+
+
+.our_two{
+    filter: drop-shadow(3px 5px 10px #ffca0e);
+    margin: -20px -33px 0 -49px;
 }
 
-.ourOne {
-    margin-left: 80px;
+.ourOne{
+    filter: drop-shadow(3px 5px 10px #0eff93);
+    margin: -20px 0 0 16px;
 }
 
 .our_block-all h2 {
@@ -374,9 +377,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 280px;
-    margin-left: 61px;
+    width: 220px;
+    margin-left: 40px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .our_block-all p {
@@ -387,7 +391,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    margin-left: 50px;
 }
 
 .our-all {
@@ -401,28 +404,22 @@
 .our_block_all {
     width: 524px;
     height: 330px;
-    background: #F0F2FF;
-    opacity: 0.1;
+    background: #1c1c1c;
     border-radius: 10px;
     margin-top: -24px;
     padding: 30px 30px 30px 30px;
-    position: relative;
 }
 
-.ipsum {
-    z-index: 1;
-    margin-top: -26%;
-    margin-left: 92px;
-    position: absolute;
-}
+
 
 .alt {
     width: 350px;
+    margin: -30px 0 0 58px;
 }
 
 .aml {
-    width: 300px;
-    margin-left: 20px;
+    width: 350px;
+    margin: -30px 0 0 58px;
 }
 
 .ipsum h2 {
@@ -432,16 +429,17 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-left: -120px;
-    margin-bottom: 10px;
+    width: 268px;
+    margin-left: 95px;
+    margin-bottom: 20px;
 }
 
 .ipsum p {
     color: #FFF;
     text-align: center;
     font-size: 14px;
-    margin-left: -60px;
-    width: 460px;
+    margin-left: 42px;
+    width: 378px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -463,6 +461,7 @@
     pointer-events: none;
     transition: 0.5s;
     z-index: 999;
+    margin: -9px 18px 0 -7px;
 }
 
 .modal__one.active {
@@ -494,7 +493,7 @@
     height: 520px;
     background-color: #18181a;
     border-radius: 6px;
-    margin: 30px 0 0 360px;
+    margin: -100px 0 0 360px;
     position: absolute;
     z-index: 999;
 }
@@ -679,7 +678,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: -20px;
+    margin-left: 18px;
 }
 
 .benefits {
@@ -754,10 +753,15 @@
 .good {
     border-radius: 10px;
     border-right: 1px solid #C9FA49;
-    padding: 30px;
+    height:190px;
     box-shadow: -1.1732852458953857px 4.693140983581543px 5.866426467895508px 0 #C9FA49;
     width: 90%;
     margin-left: 29px;
+    padding: 20px 20px 20px 20px;
+}
+
+.about_us_padding{
+    padding: 50px 0 ;
 }
 
 .good h1 {
@@ -772,7 +776,7 @@
 .good p {
     color: #FFFFFF;
     font-size: 14px;
-    width: 320px;
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -1067,6 +1071,9 @@
     line-height: normal;
     margin: 0 0 10px 15px;
 }
+.footer-contact a{
+    text-decoration: none;
+}
 
 .footer-contact a h2 {
     color: #FFF;
@@ -1252,12 +1259,6 @@
         transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
     }
 
-    .our_block-all {
-        z-index: 1;
-        margin-top: -108.5%;
-        margin-left: -32px;
-        position: absolute;
-    }
 
     .about_navbar h1 {
         color: #FFF;
@@ -1292,8 +1293,19 @@
         /* align-items: center; */
         justify-content: center;
         z-index: 1;
-        margin-top: -212px;
+        margin-top: -240px;
         margin-left: 65px;
+    }
+
+    .label {
+        color: var(--unnamed, #87DB1C);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        margin-top: 30px;
     }
 
     .form input {
@@ -1409,11 +1421,11 @@
     .our_block {
         width: 340px;
         height: 400px;
-        background: #F0F2FF;
-        opacity: 0.1;
+        background: #1c1c1c;
         border-radius: 10px;
         padding: 20px 20px 20px 20px;
-        margin: 0px 0 50px 0;
+        position: relative;
+        margin-left: -7px;
     }
 
     .our_block_all {
@@ -1426,11 +1438,7 @@
         margin: -25px 0 0 0
     }
 
-    .ipsum {
-        z-index: 1;
-        margin-top: -96%;
-        margin-left: 0;
-    }
+
 
     .ipsum h2 {
         color: #FFF;
@@ -1677,5 +1685,23 @@
         margin-left: 41px;
         position: relative;
         background: transparent;
+    }
+    .modal__one {
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*display: none;*/
+        transform: scale(0);
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.5s;
+        z-index: 999;
+        margin: -69px 18px 0 -7px;
     }
 }
