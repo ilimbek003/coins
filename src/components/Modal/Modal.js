@@ -8,8 +8,7 @@ const Modal = ({active, setActive}) => {
         text: ''
     });
 
-    const [isSubmitted, setIsSubmitted] = useState(false); // Состояние для отслеживания статуса отправки
-
+    const [isSubmitted, setIsSubmitted] = useState(false); 
     const config = {
         headers: {
             Authorization: 'Token 20c336c50442572e6621017043e9fbc4801ea5a8'
@@ -22,7 +21,7 @@ const Modal = ({active, setActive}) => {
             .post('https://coins-e528efb62dd4.herokuapp.com/review/', questions, config)
             .then((response) => {
                 console.log(response);
-                setIsSubmitted(true); // Устанавливаем состояние отправки в true после успешного ответа
+                setIsSubmitted(true); 
             })
             .catch((error) => {
                 console.error(error);
@@ -76,7 +75,7 @@ const Modal = ({active, setActive}) => {
                           autoComplete="off"
                           onChange={(e) => setQuestions({...questions, text: e.target.value})}
                           required
-                      />
+                      /> 
                                                 <label htmlFor="form_field_id">Задайте Ваш вопрос здесь</label>
                                             </div>
 
