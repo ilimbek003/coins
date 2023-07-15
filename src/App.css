@@ -1098,10 +1098,10 @@
     line-height: normal;
 }
 
-/*.footer-contact img {*/
-/*    width: 30px;*/
-/*    margin: 10px 10px 0 15px;*/
-/*}*/
+.footer-contact img {
+    width: 30px;
+    margin: 10px 10px 0 15px;
+}
 
 .dolor {
     color: #FFF;
