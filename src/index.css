@@ -1,64 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Gilroy,sans-serif ;
-}
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: Gilroy,sans-serif ;*/
+/*}*/
 
-.container{
-    width: 1140px;
-    max-width: 90%;
-    margin: 0 auto;
-}
+/*.container{*/
+/*    width: 1140px;*/
+/*    max-width: 90%;*/
+/*    margin: 0 auto;*/
+/*}*/
 
-@font-face {
-    font-family: Gilroy;
-    src: url('./fonts/Gilroy-Thin.ttf');
-    font-weight: 100;
-}
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url('./fonts/Gilroy-Thin.ttf');*/
+/*    font-weight: 100;*/
+/*}*/
 
-@font-face {
-    font-family: Gilroy;
-    src: url('./fonts/Gilroy-Light.ttf');
-    font-weight: 300;
-}
-@font-face {
-    font-family: Gilroy;
-    src: url('./fonts/Gilroy-Regular.ttf');
-    font-weight: 400;
-}
-@font-face {
-    font-family: Gilroy;
-    src: url('./fonts/Gilroy-Medium.ttf');
-    font-weight: 500;
-}
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url('./fonts/Gilroy-Light.ttf');*/
+/*    font-weight: 300;*/
+/*}*/
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url('./fonts/Gilroy-Regular.ttf');*/
+/*    font-weight: 400;*/
+/*}*/
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url('./fonts/Gilroy-Medium.ttf');*/
+/*    font-weight: 500;*/
+/*}*/
 
-@font-face {
-    font-family: Gilroy;
-    src: url('./fonts/Gilroy-Semibold.ttf');
-    font-weight: 600;
-}
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url('./fonts/Gilroy-Semibold.ttf');*/
+/*    font-weight: 600;*/
+/*}*/
 
-@font-face {
-    font-family: Gilroy;
-    src: url('./fonts/Gilroy-Bold.ttf');
-    font-weight: 700;
-}
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url('./fonts/Gilroy-Bold.ttf');*/
+/*    font-weight: 700;*/
+/*}*/
 
-@font-face {
-    font-family: Gilroy;
-    src: url('./fonts/Gilroy-Extrabold.ttf');
-    font-weight: 800;
-}
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url('./fonts/Gilroy-Extrabold.ttf');*/
+/*    font-weight: 800;*/
+/*}*/
 
-ul li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-body{
-    background: #000;
-    height: 100%;
-    width: 100%;
-}
+/*ul li{*/
+/*    list-style: none;*/
+/*}*/
+/*a{*/
+/*    text-decoration: none;*/
+/*}*/
+/*body{*/
+/*    background: #000;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
