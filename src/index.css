@@ -45,11 +45,12 @@
     font-weight: 700;
 }
 
-@font-face {
-    font-family: Gilroy;
-    src: url('./fonts/Gilroy-Extrabold.ttf');
-    font-weight: 800;
-}
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url('./fonts/Gilroy-Extrabold.ttf');*/
+/*    font-weight: 800;*/
+/*}*/
+
 ul li{
     list-style: none;
 }
