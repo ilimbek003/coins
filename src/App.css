@@ -79,8 +79,9 @@
 
 
 #about {
-    background: url("./img/34426968_sl_020622_4930_21 1.svg") no-repeat center / cover;
+    background: rgba(0, 0, 0, 0.5) url("./img/usdt.png") no-repeat center / cover;
     min-height: 100vh;
+    background-blend-mode: darken;
 }
 
 .about_navbar {
