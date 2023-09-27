@@ -1,9 +1,9 @@
 import React from 'react';
 import tel from "../../img/Frame.svg"
-import fac from "../../img/Frame (1).svg"
+import Rules from "../../file/Rules.pdf"
+import Terms from "../../file/Terms.pdf"
 import fat from "../../img/Frame (2).svg"
-import you from "../../img/Frame (3).svg"
-import insta from "../../img/Frame (4).svg"
+
 
 const Footer = () => {
     return (
@@ -18,6 +18,10 @@ const Footer = () => {
                     </div>
                     <div className="footer-contact">
                         <h1>Мы всегда на связи</h1>
+                        <a className="file" href={Rules}>Публичная
+                            оферта</a>
+                        <br/>
+                        <a className="file" href={Terms}>Политика конфиденциальности</a>
                         <div className="img-footer">
                             <img src={tel} alt=""/>
                             <a href="https://wa.me/990 115 117?text=hello+996">

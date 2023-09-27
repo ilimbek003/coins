@@ -1,13 +1,11 @@
 import React, {useState} from 'react';
 import img from '../../img/L.png'
-import * as Scroll from 'react-scroll';
 import {Link} from 'react-scroll'
 import Modal from "../Modal/Modal";
+import './header.css'
 
 const Header = () => {
-
     const [modalActive, setModalActive] = useState(false)
-
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("menu hidden")
     const [inMenuClicked, setInMenuClicked] = useState(false)

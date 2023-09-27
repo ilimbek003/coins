@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0eb2a22.css",
-    "main.js": "/static/js/main.5e0a3892.js",
+    "main.css": "/static/css/main.00dd3c98.css",
+    "main.js": "/static/js/main.0f44962f.js",
     "static/media/34426968_sl_020622_4930_21 1.svg": "/static/media/34426968_sl_020622_4930_21 1.76beccb322f849e6192d.svg",
     "static/media/safe.webp.svg": "/static/media/safe.webp.8fec19e78f27d9585f6d05a8f3c4068c.svg",
+    "static/media/Terms.pdf": "/static/media/Terms.c79c82b8d973366d05b1.pdf",
+    "static/media/Rules.pdf": "/static/media/Rules.6028582ff79bdfbbfd96.pdf",
     "static/media/34426968_sl_020622_4930_21 1.png": "/static/media/34426968_sl_020622_4930_21 1.b0853744c3414918ec20.png",
     "static/media/иконка обший баланс.svg": "/static/media/иконка обший баланс.2dbda1cd2175294624f7b6724b572ee9.svg",
     "static/media/Gilroy-Light.ttf": "/static/media/Gilroy-Light.0ac7c2f9cb59ea1ba11c.ttf",
@@ -26,18 +28,15 @@
     "static/media/press-morningstar.svg.svg": "/static/media/press-morningstar.svg.19c6d1d70d08f33cca86b0143e8d5ed7.svg",
     "static/media/Frame (2).svg": "/static/media/Frame (2).fc22238a19ffeba30860139457ded1ff.svg",
     "static/media/press-ton.svg.svg": "/static/media/press-ton.svg.c4b238c89f9af98747bc50ea223135fb.svg",
-    "static/media/Frame (4).svg": "/static/media/Frame (4).6f2a5b23c01596de8136408c601cd27c.svg",
     "static/media/press-benzinga.svg.svg": "/static/media/press-benzinga.svg.9b616aed1fe0999c4b07797017ab65e7.svg",
-    "static/media/Frame (3).svg": "/static/media/Frame (3).70b1226ff72e47418cf23f9b86df53e9.svg",
     "static/media/Frame.svg": "/static/media/Frame.8c11abe454662bb0228afcf24336af78.svg",
-    "static/media/Frame (1).svg": "/static/media/Frame (1).ea57246ebc70b4fbe04ee5b77a655fc6.svg",
     "static/media/линия.svg": "/static/media/линия.0f32d52b092be81893a910d031051ea3.svg",
     "index.html": "/index.html",
-    "main.e0eb2a22.css.map": "/static/css/main.e0eb2a22.css.map",
-    "main.5e0a3892.js.map": "/static/js/main.5e0a3892.js.map"
+    "main.00dd3c98.css.map": "/static/css/main.00dd3c98.css.map",
+    "main.0f44962f.js.map": "/static/js/main.0f44962f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0eb2a22.css",
-    "static/js/main.5e0a3892.js"
+    "static/css/main.00dd3c98.css",
+    "static/js/main.0f44962f.js"
   ]
 }

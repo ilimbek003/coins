@@ -15,9 +15,10 @@ const Our = () => {
                         <div className="class">
                             <div className="our_block">
                                 <div className="our_block-all">
-                                    <img className="our_two" src={our} alt=""/>
-                                    <h2>Безопасность и конфиденциальность</h2>
-                                    <p>100% Гарантия безопасности и конфеденциальности. Документы не требуются.</p>
+                                    <img className="our_two" src={ourOneTw} alt=""/>
+                                    <h2>Фиксированная комиссия без посредников
+                                    </h2>
+                                    <p> Выгодный актуальный курс по тарифам Binance.com</p>
                                 </div>
                             </div>
                         </div>
@@ -34,30 +35,7 @@ const Our = () => {
                         <div className="class">
                             <div className="our_block">
                                 <div className="our_block-all">
-                                    <img className="our_two" src={ourOneT} alt=""/>
-                                    <h2>Доверенная
-                                        команда курьеров</h2>
-                                    <p>Наши сотрудники доставят/заберут наличные в любой точке города</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="our-all">
-                        <div className="our_block_all1">
-                            <div className="our_block_all">
-                                <div className="ipsum">
-                                    <img className="alt" src={ourOneTw} alt=""/>
-                                    <h2>Фиксированная
-                                        комиссия без посредников
-                                    </h2>
-                                    <p> Выгодный актуальный курс по тарифам Binance.com</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="our_block_all">
-                                <div className="ipsum">
-                                    <img className="aml" src={aml} alt=""/>
+                                    <img className="our_two_tx" src={aml} alt=""/>
                                     <h2>Гарантии и преимущества</h2>
                                     <p>Круглосуточная обработка заявок и самый лучший курс на рынке для партнеров.</p>
                                 </div>
