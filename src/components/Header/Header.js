@@ -5,7 +5,7 @@ import Modal from "../Modal/Modal";
 import './header.css'
 
 const Header = () => {
-    const [modalActive, setModalActive] = useState(false)
+    const [modalActive, setModalActive] = useState(false);
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("menu hidden")
     const [inMenuClicked, setInMenuClicked] = useState(false)
@@ -20,7 +20,11 @@ const Header = () => {
         }
         setInMenuClicked(!inMenuClicked)
     }
-
+    const closeMenu = () => {
+        setMenuClass("menu hidden");
+        setInMenuClicked(false);
+        setBurgerClass("burger-bar unclicked")
+    }
 
     return (
         <div id="header">
@@ -42,7 +46,7 @@ const Header = () => {
                             <li><Link className="test6" to="footer" spy={true} smooth={true}
                                       duration={500}>Контакты</Link></li>
                         </ul>
-                        <button onClick={() => setModalActive(true)} className="btn">
+                        <button onClick={() => setModalActive(!modalActive)} className="btn">
                             <span className="span">Оставить заявку</span>
                         </button>
                     </div>
@@ -56,27 +60,27 @@ const Header = () => {
                         </nav>
                     </div>
                     <div className={menu_class}>
-                       <div className="bur">
-                           <ul>
-                               <li><Link className="test6" to="slick" spy={true} smooth={true} duration={500}>Курсы</Link>
-                               </li>
-                               <li><Link className="test6" to="our" spy={true} smooth={true}
-                                         duration={500}>Преимущества</Link></li>
-                               <li><Link className="test6" to="block" spy={true} smooth={true}
-                                         duration={500}>Условия</Link></li>
-                               <li><Link className="test6" to="about_us" spy={true} smooth={true} duration={500}>FAQ</Link>
-                               </li>
-                               <li><Link className="test6" to="footer" spy={true} smooth={true}
-                                         duration={500}>Контакты</Link></li>
-                           </ul>
-                           <button onClick={() => setModalActive(true)} className="btn">
-                               <span className="span">Оставить заявку</span>
-                           </button>
-                       </div>
+                        <div className="bur">
+                            <ul>
+                                <li><Link className="test6" to="slick" spy={true} smooth={true} duration={500}
+                                          onClick={closeMenu}>Курсы</Link></li>
+                                <li><Link className="test6" to="our" spy={true} smooth={true} duration={500}
+                                          onClick={closeMenu}>Преимущества</Link></li>
+                                <li><Link className="test6" to="block" spy={true} smooth={true} duration={500}
+                                          onClick={closeMenu}>Условия</Link></li>
+                                <li><Link className="test6" to="about_us" spy={true} smooth={true} duration={500}
+                                          onClick={closeMenu}>FAQ</Link></li>
+                                <li><Link className="test6" to="footer" spy={true} smooth={true} duration={500}
+                                          onClick={closeMenu}>Контакты</Link></li>
+                            </ul>
+                            <button onClick={() => setModalActive(!modalActive)} className="btn">
+                                <span className="span">Оставить заявку</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                <Modal active={modalActive} setActive={setModalActive}/>
+                <Modal modalActive={modalActive} setModalActive={setModalActive}/>
             </div>
 
         </div>

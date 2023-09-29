@@ -1,0 +1,102 @@
+.modal__one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.modal_content{
+    max-width: 450px;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #18181a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.modal__one h1{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+.modal__one p{
+    color: #c2c2c2;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item label{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 15px 0 5px 0;
+}
+
+.form-item input{
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-item textarea{
+    width: 100% !important;
+    min-height: 60px!important;
+    padding: 12px 0 12px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.submit--btn{
+    width: 100%;
+    padding: 12px 0 12px 0;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.submit--btn:hover{
+    background-color: #bbb8b8;
+    color: #FFFFFF;
+}
+
+.isSubmitted{
+    max-width: 450px;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #18181a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
